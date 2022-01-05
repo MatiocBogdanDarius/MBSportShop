@@ -1,10 +1,12 @@
 package com.example.springbootbackend.model;
 
+import com.example.springbootbackend.services.ShoppingCartProductService;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
 import javax.persistence.*;
+import java.util.Set;
 
 @Data
 @AllArgsConstructor
